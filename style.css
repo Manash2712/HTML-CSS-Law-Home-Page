@@ -4,11 +4,42 @@
   box-sizing: border-box;
   font-family: "Montserrat";
 }
-
-/* ------------------------------ */
-/* ---------- NAVBAR ------------ */
-/* ------------------------------ */
-
-/* ------------------------------ */
-/* ---------- HERO ------------ */
-/* ------------------------------ */
+.navbar{
+  background: #2b2922;
+  color: #ffffff;
+  display: flex;
+  padding: 1% 5%;
+  align-items: center;
+}
+.nav-others{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30%;
+  width: 100%;
+  margin-right: 2%;
+}
+.nav-button button{
+  /* margin-left: 10%; */
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: #9e8d36;
+  font-weight: 700;
+  border: 1px solid #766b2f;
+  border-radius: 10px;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  width: 200%;
+  /* column-gap: 20%; */
+}
+.list>li:first-child{
+  color: #ffffff;
+  font-weight: 600;
+}
+.list-item{
+  margin-right: 10%;
+  color: #8e8c84;
+}
